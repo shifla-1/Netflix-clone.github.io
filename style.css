@@ -1,0 +1,232 @@
+*
+{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.header
+{
+    width: 100;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/IN-en-20231218-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8px;
+    height: 100;
+    padding-bottom:8rem;
+    
+}
+.banner-txt
+{
+    margin-top: 10rem;
+    font-size: 3.4rem;
+    
+}
+.mail
+{
+    margin-left: 13rem;
+}
+
+.ff
+{
+    font-family: Netflix Sans;
+}
+.languge
+{
+    
+    padding: 6px 36px;
+}
+.languge-btn {
+    width:8rem;
+    border-radius: 1px;
+    margin-right: 1.5rem;
+    
+    
+}
+.languge-btn:hover {
+    border: solid #fff 3px;
+    border-color: #fff;
+    
+}
+.signin
+{
+    height: 32px;
+    background-color: #e50914;
+    color: #fff;
+    border-radius:6px;
+    border: 0;
+}
+.boxshot{
+    height: 73px;
+}
+/* form*/
+form{
+    width: 50%;
+}
+form #floatingInput {
+    color:rgba(255, 255, 255);
+}
+form .form-control:focus {
+    border-color: #fff;
+    box-shadow: none;
+    border-width:medium;
+
+}
+form .form-floating>.form-control:focus~label {
+    color: rgba(255, 255, 255, 0.7);
+}
+form .form-floating>.form-control:focus~label::after {
+    background-color:transparent;
+}
+form .form-floating {
+    width: 50%;
+
+    
+}
+form #floatingInput {
+    background-color: transparent;
+}
+form label {
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+}
+.get-started-btn {
+    height: 60px;
+    font-size: 1.5rem;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.get-started-btn::after {
+
+    content: "\276F";
+    margin-left: 5px;
+} 
+.get-started-btn{
+    background-color: rgb(229, 9, 20);
+    color: #fff;
+    border: 0;
+    border-radius: 00.25rem;
+    padding: 5px 17px;
+}
+.get-started-btn:hover{
+
+ background-color: rgb(193, 17, 25);
+}
+/*faqsection*/
+
+.faq-section button {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(255, 255, 255);
+}
+.faq-section .accordion{
+    --bs-accordion-color:rgba(255,255,255);
+    --bs-accordion-bg:rgba(45,45,45);
+    --bs-accordion-border:none;
+    --bs-accordion-border-radius:none;
+}
+.faq-section .accordion-button:hover {
+   
+    background-color: rgba(65,65,65);
+}
+.faq-section .accordion-button:not(.collapsed) {
+    background-color: rgba(65,65,65);
+    color: rgba(255, 255, 255);
+
+}
+.faq-section .accordion-button::after {
+    content: "+";
+    background-image: none;
+    position:absolute;
+    height: 30px;
+    font-size: 50px;
+    top: 5px;
+    right: 45px;
+}
+.faq-section .accordion-button:not(.collapsed)::after {
+    content: "\00d7";
+    background-image: none;
+    transform: none;
+}
+/* footer */
+
+li {
+    list-style-type:none ;
+    color: #fff;
+}
+li a,p a {
+    color: #b8b8ba;
+    text-decoration: none;
+}
+/* mobile */
+
+@media only screen and (max-width: 992px) {
+    nav img {
+        width: 17%;
+    }
+
+    .hero-title,
+    .section-title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .hero-first-p,
+    .hero-second-p,
+    .section-paragraph,
+    .faq-section h3 {
+        font-size: 1.125rem;
+    }
+
+    .purple-section img {
+        width: 50%;
+    }
+
+    .enjoy-section .container {
+        padding-top: 5rem;
+    }
+    .boxshot {
+        height: 99px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav img {
+        width: 25%;
+    }
+
+    header {
+        height: 100vh;
+    }
+
+   img {
+    width:300px;
+   }
+}
+
+@media only screen and (max-width: 576px) {
+    nav img {
+        width: 35%;
+    }
+
+    header {
+        height: 110vh;
+    }
+    .banner-txt {
+        font-size: 2rem;
+    }
+  
+
+    form .form-floating {
+        width: 90%;
+    }
+
+    .purple-section img {
+        width: 20%;
+        top: -45px;
+    }
+    img {
+        width: 300px;
+    }
+    .boxshot
+    {
+        width:73px;
+    }
+}
